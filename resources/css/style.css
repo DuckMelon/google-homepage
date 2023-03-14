@@ -1,13 +1,34 @@
 *{
-    font-family: Roboto;
+    font-family: 'Overpass', sans-serif;
+
+
+}
+
+html   {
+
+    height: 100%;
+    width: 100%;
+}
+
+body 
+{
+     /* random value to simulate being set by JavaScript */
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 80%;
+    padding: 0%;
+    margin: 0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
+
 
 
 .sign{
@@ -106,7 +127,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    margin: 0
+    margin: 0;
+
+    
 }
 .linavs {
     display: inline;
